@@ -89,3 +89,15 @@ D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.ClienteWe
 D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.ClienteWebAPI\bin\WebService.DATA.pdb
 D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.ClienteWebAPI\bin\WebService.DATA.dll.config
 D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.ClienteWebAPI\bin\EntityFramework.xml
+D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.ClienteWebAPI\bin\WebService.WebApi.dll
+D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.ClienteWebAPI\bin\System.Web.Http.dll
+D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.ClienteWebAPI\bin\System.Net.Http.Formatting.dll
+D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.ClienteWebAPI\bin\System.Web.Http.WebHost.dll
+D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.ClienteWebAPI\bin\WebService.WebApi.pdb
+D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.ClienteWebAPI\bin\WebService.WebApi.dll.config
+D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.ClienteWebAPI\bin\System.Web.Http.xml
+D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.ClienteWebAPI\bin\System.Web.Http.WebHost.xml
+D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.ClienteWebAPI\bin\es\System.Web.Http.resources.dll
+D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.ClienteWebAPI\bin\es\System.Web.Http.WebHost.resources.dll
+D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.ClienteWebAPI\bin\System.Net.Http.Formatting.xml
+D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.ClienteWebAPI\bin\es\System.Net.Http.Formatting.resources.dll

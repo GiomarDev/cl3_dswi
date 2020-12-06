@@ -6,22 +6,25 @@
 
 <h2>LISTADO DE PACIENTES</h2>
 
+<p>
+    @Html.ActionLink("REGISTRAR PACIENTE", "nuevoPaciente")
+</p>
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.IDE_PAC)
+            CODIGO
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.NOM_PAC)
+            NOMBRE
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.APE_PAC)
+            APELLIDO
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.FNA_PAC)
+            FECHA DEL PACIENTE
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.FON_PAC)
+            TELEFONO DEL PACIENTE
         </th>
         <th></th>
     </tr>
@@ -38,15 +41,15 @@
             @Html.DisplayFor(modelItem => item.APE_PAC)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.FNA_PAC)
+            @item.FNA_PAC.ToShortDateString()
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.FON_PAC)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            @Html.ActionLink("Actualizar", "actualizarPaciente", new {  id=item.IDE_PAC  }) |
+            @Html.ActionLink("Detalles", "detallePaciente", new { id = item.IDE_PAC }) |
+            @Html.ActionLink("Eliminar", "eliminarPaciente", new { id = item.IDE_PAC })
         </td>
     </tr>
 }

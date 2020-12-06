@@ -1,0 +1,58 @@
+﻿@model WebService.DATA.Model.PACIENTE
+
+@{
+    ViewBag.Title = "detallePaciente";
+}
+
+<h2>DETALLE DEL PACIENTE</h2>
+
+<div>
+    <h4>PACIENTE</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            CODIGO
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDE_PAC)
+        </dd>
+
+        <dt>
+            NOMBRES
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NOM_PAC)
+        </dd>
+
+        <dt>
+            APELLIDOS
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.APE_PAC)
+        </dd>
+
+        <dt>
+            FECHA
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FNA_PAC)
+        </dd>
+
+        <dt>
+            TELEFONO
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FON_PAC)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Actualizar", "actualizarPaciente", new {  id = Model.IDE_PAC}) |
+    @Html.ActionLink("Volver al Listado", "listadoPacientes")
+</p>

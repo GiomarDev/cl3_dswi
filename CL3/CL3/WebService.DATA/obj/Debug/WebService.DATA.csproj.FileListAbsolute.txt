@@ -5,8 +5,8 @@ D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.DATA\bin\
 D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.DATA\bin\Debug\EntityFramework.SqlServer.dll
 D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.DATA\bin\Debug\EntityFramework.xml
 D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.DATA\bin\Debug\EntityFramework.SqlServer.xml
-D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.DATA\obj\Debug\WebService.DATA.csprojAssemblyReference.cache
 D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.DATA\obj\Debug\WebService.DATA.csproj.CoreCompileInputs.cache
 D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.DATA\obj\Debug\WebService.DATA.csproj.CopyComplete
 D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.DATA\obj\Debug\WebService.DATA.dll
 D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.DATA\obj\Debug\WebService.DATA.pdb
+D:\Ciclo05\DESARROLLO DE SERVICIOS WEB I\Examen_cl3\CL3\CL3\WebService.DATA\obj\Debug\WebService.DATA.csprojAssemblyReference.cache

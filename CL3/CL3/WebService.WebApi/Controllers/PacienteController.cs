@@ -35,7 +35,7 @@ namespace WebService.WebApi.Controllers
         [HttpPut]
         public int Put(PACIENTE objP)
         {
-            var unPaciente = db.SP_LISTAPACIENTE().Where(p => p.IDE_PAC == objP.IDE_PAC).FirstOrDefault();
+            var unPaciente = db.PACIENTE.Where(p => p.IDE_PAC == objP.IDE_PAC).FirstOrDefault();
             
             unPaciente.IDE_PAC = objP.IDE_PAC;
             unPaciente.NOM_PAC = objP.NOM_PAC;
