@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CLINICAModelStoreContainer" CdmEntityContainer="CLINICAEntities1">
+    <EntitySetMapping Name="PACIENTE">
+      <EntityTypeMapping TypeName="CLINICAModel.PACIENTE">
+        <MappingFragment StoreEntitySet="PACIENTE">
+          <ScalarProperty Name="IDE_PAC" ColumnName="IDE_PAC" />
+          <ScalarProperty Name="NOM_PAC" ColumnName="NOM_PAC" />
+          <ScalarProperty Name="APE_PAC" ColumnName="APE_PAC" />
+          <ScalarProperty Name="FNA_PAC" ColumnName="FNA_PAC" />
+          <ScalarProperty Name="FON_PAC" ColumnName="FON_PAC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SP_ACTUALIZAPACIENTE" FunctionName="CLINICAModel.Store.SP_ACTUALIZAPACIENTE" />
+    <FunctionImportMapping FunctionImportName="SP_ELIMINAPACIENTE" FunctionName="CLINICAModel.Store.SP_ELIMINAPACIENTE" />
+    <FunctionImportMapping FunctionImportName="SP_LISTAPACIENTE" FunctionName="CLINICAModel.Store.SP_LISTAPACIENTE">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CLINICAModel.SP_LISTAPACIENTE_Result">
+          <ScalarProperty Name="IDE_PAC" ColumnName="IDE_PAC" />
+          <ScalarProperty Name="NOM_PAC" ColumnName="NOM_PAC" />
+          <ScalarProperty Name="APE_PAC" ColumnName="APE_PAC" />
+          <ScalarProperty Name="FNA_PAC" ColumnName="FNA_PAC" />
+          <ScalarProperty Name="FON_PAC" ColumnName="FON_PAC" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_NUEVOPACIENTE" FunctionName="CLINICAModel.Store.SP_NUEVOPACIENTE" />
+  </EntityContainerMapping>
+</Mapping>

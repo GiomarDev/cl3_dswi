@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CLINICAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="PACIENTE">
+    <Key>
+      <PropertyRef Name="IDE_PAC" />
+    </Key>
+    <Property Name="IDE_PAC" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOM_PAC" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="APE_PAC" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="FNA_PAC" Type="date" Nullable="false" />
+    <Property Name="FON_PAC" Type="char" MaxLength="15" Nullable="false" />
+  </EntityType>
+  <Function Name="SP_ACTUALIZAPACIENTE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID_PAC" Type="int" Mode="In" />
+    <Parameter Name="NOM" Type="varchar" Mode="In" />
+    <Parameter Name="APE" Type="varchar" Mode="In" />
+    <Parameter Name="FNA_PAC" Type="date" Mode="In" />
+    <Parameter Name="FON" Type="char" Mode="In" />
+  </Function>
+  <Function Name="SP_ELIMINAPACIENTE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID_PAC" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SP_LISTAPACIENTE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SP_NUEVOPACIENTE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NOM" Type="varchar" Mode="In" />
+    <Parameter Name="APE" Type="varchar" Mode="In" />
+    <Parameter Name="FNA_PAC" Type="date" Mode="In" />
+    <Parameter Name="FON" Type="char" Mode="In" />
+  </Function>
+  <EntityContainer Name="CLINICAModelStoreContainer">
+    <EntitySet Name="PACIENTE" EntityType="Self.PACIENTE" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

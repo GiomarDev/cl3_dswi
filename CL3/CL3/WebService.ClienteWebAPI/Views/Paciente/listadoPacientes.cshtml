@@ -1,0 +1,54 @@
+﻿@model IEnumerable<WebService.DATA.Model.SP_LISTAPACIENTE_Result>
+
+@{
+    ViewBag.Title = "listadoPacientes";
+}
+
+<h2>LISTADO DE PACIENTES</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IDE_PAC)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NOM_PAC)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.APE_PAC)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FNA_PAC)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FON_PAC)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDE_PAC)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NOM_PAC)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.APE_PAC)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FNA_PAC)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FON_PAC)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>
