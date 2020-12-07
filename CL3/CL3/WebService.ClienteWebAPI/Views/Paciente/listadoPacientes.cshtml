@@ -29,29 +29,30 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.IDE_PAC)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.NOM_PAC)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.APE_PAC)
-        </td>
-        <td>
-            @item.FNA_PAC.ToShortDateString()
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.FON_PAC)
-        </td>
-        <td>
-            @Html.ActionLink("Actualizar", "actualizarPaciente", new {  id=item.IDE_PAC  }) |
-            @Html.ActionLink("Detalles", "detallePaciente", new { id = item.IDE_PAC }) |
-            @Html.ActionLink("Eliminar", "eliminarPaciente", new { id = item.IDE_PAC })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IDE_PAC)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NOM_PAC)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.APE_PAC)
+            </td>
+            <td>
+                @item.FNA_PAC.ToShortDateString()
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FON_PAC)
+            </td>
+            <td>
+                @Html.ActionLink("Actualizar", "actualizarPaciente", new { id = item.IDE_PAC }) |
+                @Html.ActionLink("Detalles", "detallePaciente", new { id = item.IDE_PAC }) |
+                @Html.ActionLink("Eliminar", "eliminarPaciente", new { id = item.IDE_PAC })
+            </td>
+        </tr>
+    }
 
 </table>
