@@ -16,33 +16,11 @@
     <header>
         <nav class="menu">
             <ul>
-                <li>@Html.ActionLink("PRINCIPAL", "Index", "Tienda")</li>
                 <li>
-                    CLIENTE
+                    PACIENTE
                     <ul>
-                        <li>LISTADO GENERAL</li>
-                        <li>NUEVO CLIENTE</li>
-                    </ul>
-                </li>
-                <li>
-                    ORDEN DE COMPRA
-                    <ul>
-                        <li>LISTADO ORDENES DE COMPRA</li>
-                        <li>GENERAR ORDEN DE COMPRA</li>
-                    </ul>
-                </li>
-                <li>
-                    VENTA
-                    <ul>
-                        <li>@Html.ActionLink("GENERAR VENTA", "carritoCompras", "Tienda")</li>
-                        <li>LISTADO DE FACTURAS</li>
-                    </ul>
-                </li>
-                <li>
-                    PRODUCTO
-                    <ul>
-                        <li>LISTADO GENERAL</li>
-                        <li>NUEVO PRODUCTO</li>
+                        <li>@Html.ActionLink("Listado de Paciente", "listadoPacientes", "Paciente")</li>
+                        <li>@Html.ActionLink("Registro de Paciente", "nuevoPaciente", "Paciente")</li>
                     </ul>
                 </li>
                 <li>
